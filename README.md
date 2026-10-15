@@ -1,23 +1,25 @@
-# 🚀 Product Showcase
+# 🚀 Glassmorphism Navbar
 
-A premium **Animated Product Showcase** built with **React, TypeScript, Vite, Tailwind CSS v4, and Framer Motion**.
+A premium **Animated Glassmorphism Navbar** built with **React, TypeScript, Vite, Tailwind CSS v4, and Framer Motion**.
 
-This project demonstrates a modern product presentation experience featuring smooth animations, an interactive image carousel, 3D hover effects, auto-sliding products, and premium UI design inspired by high-end eCommerce websites.
+This project demonstrates a modern, fully responsive navigation experience featuring a floating glass bar, a cursor-follow spotlight, gliding hover and active indicators, an animated mobile menu, and a clean heading-only hero section.
 
 ---
 
 ## ✨ Features
 
-- 🚀 Smooth Framer Motion animations
-- 🖼️ Interactive product image carousel
-- 🎯 3D hover tilt effect
-- ⏸️ Auto-play with hover pause
-- 💎 Glassmorphism UI
-- 🌈 Beautiful gradient glow effects
-- ⭐ Animated rating display
-- 📱 Fully responsive
+- 💎 Floating glassmorphism navbar with blur, border and shine line
+- 🔦 Cursor-follow purple spotlight inside the bar
+- 🎯 Gliding hover pill that moves between nav items
+- 🌟 Glowing active pill with smooth spring animation
+- 🧩 Animated icons with hover lift and tilt
+- ✨ "Get Started" button with shimmer sweep effect
+- 📱 Fully responsive with animated mobile glass menu
+- 🍔 Hamburger ↔ close icon morph animation
+- ⌨️ Keyboard friendly: focus rings, Escape to close the menu
+- 🌈 Floating gradient orbs behind the glass
+- ♿ Respects `prefers-reduced-motion`
 - ⚡ Fast performance with Vite
-- 🎨 Premium modern UI
 
 ---
 
@@ -28,7 +30,7 @@ This project demonstrates a modern product presentation experience featuring smo
 - Vite 8
 - Tailwind CSS v4
 - Framer Motion
-- Iconify
+- Iconify (Solar icon set)
 
 ---
 
@@ -72,6 +74,7 @@ http://localhost:5173
 src/
 │
 ├── assets/
+│   └── muzafar-tech-logo-navbar.png
 ├── App.tsx
 ├── main.tsx
 ├── index.css
@@ -82,19 +85,32 @@ package.json
 
 ---
 
+## 🧭 Navbar Items
+
+| Item     | Icon                                 |
+| -------- | ------------------------------------ |
+| Home     | `solar:home-2-bold-duotone`          |
+| Features | `solar:magic-stick-3-bold-duotone`   |
+| Showcase | `solar:gallery-wide-bold-duotone`    |
+| Pricing  | `solar:tag-price-bold-duotone`       |
+| Contact  | `solar:chat-round-dots-bold-duotone` |
+
+To add or remove items, edit the `NAV_ITEMS` array at the top of `App.tsx`.
+
+---
+
 ## 🎯 What this project demonstrates
 
-This project focuses on building premium animated product experiences using modern frontend technologies.
+This project focuses on building premium animated navigation using modern frontend technologies.
 
 It showcases:
 
-- Product Image Carousel
-- Auto Sliding Products
-- 3D Mouse Tilt
-- Interactive Hover Effects
-- Glassmorphism
-- Motion Design
+- Glassmorphism UI
+- Shared layout animations (`layoutId`) for hover and active states
+- Mouse-tracking spotlight with `useMotionTemplate`
+- Animated mobile menu with staggered items
 - Micro Interactions
+- Motion Design
 - Responsive Layout
 - Component-Based Architecture
 
@@ -102,10 +118,10 @@ It showcases:
 
 ## 💡 Perfect For
 
-- eCommerce Websites
-- Product Landing Pages
+- Landing Pages
 - Startup Websites
 - SaaS Products
+- eCommerce Websites
 - Portfolio Projects
 - UI Inspiration
 - React Learning
