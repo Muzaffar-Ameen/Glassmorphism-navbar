@@ -141,7 +141,7 @@ Add screenshots or GIFs here.
 Building premium web experiences using **React, MERN Stack, Tailwind CSS, and Framer Motion.**
 
 🌐 Portfolio:
-https://muzafar-tech.netlify.app
+https://muzaffareng.netlify.app/
 
 💻 GitHub:
 https://github.com/Muzafar-Tech
